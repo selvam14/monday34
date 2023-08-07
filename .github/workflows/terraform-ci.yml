@@ -16,6 +16,6 @@ jobs:
           with: 
             node-version: 18
         - name: runinstall
-          run: npm install
+          run: npm ci
         - name: npm run test
           run: npm test
